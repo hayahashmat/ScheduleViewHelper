@@ -1,0 +1,6 @@
+framework module Pods_ScheduleHelper {
+  umbrella header "Pods-ScheduleHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

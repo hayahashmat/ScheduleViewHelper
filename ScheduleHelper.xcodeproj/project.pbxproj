@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		671C6C0F237D2A2700225505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C6C0E237D2A2700225505 /* AppDelegate.swift */; };
+		671C6C11237D2A2700225505 /* ScheduleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671C6C10237D2A2700225505 /* ScheduleHelper.swift */; };
+		671C6C14237D2A2700225505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671C6C12237D2A2700225505 /* Main.storyboard */; };
+		671C6C16237D2A2800225505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671C6C15237D2A2800225505 /* Assets.xcassets */; };
+		671C6C19237D2A2800225505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671C6C17237D2A2800225505 /* LaunchScreen.storyboard */; };
+		B7DFDEF0FEFD63E68C47E515 /* Pods_ScheduleHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCB576692F1D1051CBB8E1 /* Pods_ScheduleHelper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		671C6C0B237D2A2700225505 /* ScheduleHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		671C6C0E237D2A2700225505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		671C6C10237D2A2700225505 /* ScheduleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleHelper.swift; sourceTree = "<group>"; };
+		671C6C13237D2A2700225505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		671C6C15237D2A2800225505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		671C6C18237D2A2800225505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		671C6C1A237D2A2800225505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCCB576692F1D1051CBB8E1 /* Pods_ScheduleHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScheduleHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91AABF81F1230AB73BA4600 /* Pods-ScheduleHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScheduleHelper.debug.xcconfig"; path = "Target Support Files/Pods-ScheduleHelper/Pods-ScheduleHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		F99B2CE0F9553CC2CC43234B /* Pods-ScheduleHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScheduleHelper.release.xcconfig"; path = "Target Support Files/Pods-ScheduleHelper/Pods-ScheduleHelper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		671C6C08237D2A2700225505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DFDEF0FEFD63E68C47E515 /* Pods_ScheduleHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		671C6C02237D2A2700225505 = {
+			isa = PBXGroup;
+			children = (
+				671C6C0D237D2A2700225505 /* ScheduleHelper */,
+				671C6C0C237D2A2700225505 /* Products */,
+				F2BC536A20037982D28C7F06 /* Pods */,
+				95E6361F3661E7007B1C75D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		671C6C0C237D2A2700225505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				671C6C0B237D2A2700225505 /* ScheduleHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		671C6C0D237D2A2700225505 /* ScheduleHelper */ = {
+			isa = PBXGroup;
+			children = (
+				671C6C0E237D2A2700225505 /* AppDelegate.swift */,
+				671C6C10237D2A2700225505 /* ScheduleHelper.swift */,
+				671C6C12237D2A2700225505 /* Main.storyboard */,
+				671C6C15237D2A2800225505 /* Assets.xcassets */,
+				671C6C17237D2A2800225505 /* LaunchScreen.storyboard */,
+				671C6C1A237D2A2800225505 /* Info.plist */,
+			);
+			path = ScheduleHelper;
+			sourceTree = "<group>";
+		};
+		95E6361F3661E7007B1C75D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBCCB576692F1D1051CBB8E1 /* Pods_ScheduleHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2BC536A20037982D28C7F06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F91AABF81F1230AB73BA4600 /* Pods-ScheduleHelper.debug.xcconfig */,
+				F99B2CE0F9553CC2CC43234B /* Pods-ScheduleHelper.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		671C6C0A237D2A2700225505 /* ScheduleHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671C6C1D237D2A2800225505 /* Build configuration list for PBXNativeTarget "ScheduleHelper" */;
+			buildPhases = (
+				29237CD10673762F94C6A5DF /* [CP] Check Pods Manifest.lock */,
+				671C6C07237D2A2700225505 /* Sources */,
+				671C6C08237D2A2700225505 /* Frameworks */,
+				671C6C09237D2A2700225505 /* Resources */,
+				5DD00E34C428C3E113633668 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScheduleHelper;
+			productName = ScheduleHelper;
+			productReference = 671C6C0B237D2A2700225505 /* ScheduleHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		671C6C03237D2A2700225505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Haya;
+				TargetAttributes = {
+					671C6C0A237D2A2700225505 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 671C6C06237D2A2700225505 /* Build configuration list for PBXProject "ScheduleHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 671C6C02237D2A2700225505;
+			productRefGroup = 671C6C0C237D2A2700225505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				671C6C0A237D2A2700225505 /* ScheduleHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		671C6C09237D2A2700225505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671C6C19237D2A2800225505 /* LaunchScreen.storyboard in Resources */,
+				671C6C16237D2A2800225505 /* Assets.xcassets in Resources */,
+				671C6C14237D2A2700225505 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29237CD10673762F94C6A5DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScheduleHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD00E34C428C3E113633668 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScheduleHelper/Pods-ScheduleHelper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScheduleHelper/Pods-ScheduleHelper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScheduleHelper/Pods-ScheduleHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		671C6C07237D2A2700225505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671C6C11237D2A2700225505 /* ScheduleHelper.swift in Sources */,
+				671C6C0F237D2A2700225505 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		671C6C12237D2A2700225505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671C6C13237D2A2700225505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		671C6C17237D2A2800225505 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671C6C18237D2A2800225505 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		671C6C1B237D2A2800225505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		671C6C1C237D2A2800225505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		671C6C1E237D2A2800225505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91AABF81F1230AB73BA4600 /* Pods-ScheduleHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBL34U9N33;
+				INFOPLIST_FILE = ScheduleHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TempProject.ScheduleHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		671C6C1F237D2A2800225505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99B2CE0F9553CC2CC43234B /* Pods-ScheduleHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBL34U9N33;
+				INFOPLIST_FILE = ScheduleHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TempProject.ScheduleHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		671C6C06237D2A2700225505 /* Build configuration list for PBXProject "ScheduleHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671C6C1B237D2A2800225505 /* Debug */,
+				671C6C1C237D2A2800225505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671C6C1D237D2A2800225505 /* Build configuration list for PBXNativeTarget "ScheduleHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671C6C1E237D2A2800225505 /* Debug */,
+				671C6C1F237D2A2800225505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 671C6C03237D2A2700225505 /* Project object */;
+}
